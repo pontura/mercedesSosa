@@ -9,6 +9,8 @@ public class YearsManager : MonoBehaviour
     public float y_separationFactor;
     int firstYear;
     int offset = 100;
+    public List<YearButton> all;
+
     void Start()
     {
         Loop();
@@ -22,15 +24,28 @@ public class YearsManager : MonoBehaviour
     }
     void AllLoaded()
     {
+       // Utils.RemoveAllChildsIn(container);
         firstYear = Data.Instance.contentData.allData.data[0].year;
         foreach (ContentData.DataContent data in Data.Instance.contentData.allData.data)
         {
             YearButton newButton = Instantiate(yearButton, container);
             newButton.transform.localScale = Vector3.one;
-            newButton.Init(data);
+            newButton.Init(this, data);
             int _y = data.year - firstYear;
             newButton.transform.localPosition = new Vector2(0, -offset - _y*y_separationFactor);
             print(newButton.transform.localPosition);
+            all.Add(newButton);
         }
+    }
+    public void OnClicked(YearButton yearButton)
+    {
+        foreach (YearButton b in all)
+            if (b.isOn && b != yearButton)
+                b.Reset();
+
+        if (yearButton.isOn)
+            UIManager.Instance.Open(yearButton.data);
+        else
+            UIManager.Instance.Close();
     }
 }

@@ -10,10 +10,12 @@ public class YearButton : MonoBehaviour
     public GameObject off;
     public bool isOn;
     Animation anim;
-
-
-    public void Init(ContentData.DataContent data)
+    YearsManager manager;
+    public ContentData.DataContent data;
+    public void Init(YearsManager manager, ContentData.DataContent data)
     {
+        this.manager = manager;
+        this.data = data;
         SetState();
         foreach (Text field in fields)
             field.text = data.year.ToString();
@@ -27,15 +29,16 @@ public class YearButton : MonoBehaviour
         else
             GetComponent<Animation>().Play("btn_off");
 
-        if (isOn)
-            UIManager.Instance.Open();
-        else
-            UIManager.Instance.Close();
+        manager.OnClicked(this);
+    }
+    public void Reset()
+    {
+        isOn = false;
+        SetState();
     }
     void SetState()
     {
         on.SetActive(isOn);
-        off.SetActive(!isOn);
-     
+        off.SetActive(!isOn);     
     }
 }

@@ -16,9 +16,9 @@ public class UIManager : MonoBehaviour
     }
     public PopupManager popupManager;
 
-    public void Open()
+    public void Open(ContentData.DataContent data)
     {
-        popupManager.Open();
+        popupManager.Open(data);
     }
     public void Close()
     {
