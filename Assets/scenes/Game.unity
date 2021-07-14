@@ -737,6 +737,10 @@ MonoBehaviour:
   on: {fileID: 494753099}
   off: {fileID: 1808104366}
   isOn: 0
+  data:
+    year: 0
+    type: 
+    content: []
 --- !u!1 &274137929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +1844,7 @@ MonoBehaviour:
     type: 3}
   container: {fileID: 1384328531}
   y_separationFactor: 62
+  all: []
 --- !u!114 &915691003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,6 +4042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a011f94539c920340b0f4afeccf13877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 11625104}
 --- !u!1 &2123627284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4232,11 +4238,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8852647716907517133, guid: 680cb913d0ff7dd48ba15cca37e09441,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680cb913d0ff7dd48ba15cca37e09441, type: 3}
