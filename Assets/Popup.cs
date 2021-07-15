@@ -7,9 +7,11 @@ using UnityEngine.UI;
 
 public class Popup : MonoBehaviour
 {
+    public int _width = 530;
     public Text title;
     public Text popupText;
     public Image popupImage;
+    public PopupVideoAsset popupVideo;
     public Transform container;
     ContentData.DataContent data;
 
@@ -29,7 +31,9 @@ public class Popup : MonoBehaviour
             if (yearData.text != null)
                 AddText(yearData);
             else if (yearData.imageURL != null)
-                StartCoroutine(AddImage(yearData, data.year.ToString()));
+                AddImage(yearData, data.year.ToString());
+            else if (yearData.videoURL != null)
+                AddVideo(yearData, data.year.ToString());
         }
     }
     void AddText(ContentData.YearData yearData)
@@ -37,11 +41,23 @@ public class Popup : MonoBehaviour
         Text asset = Instantiate(popupText, container);
         asset.text = yearData.text;
     }
-    IEnumerator AddImage(ContentData.YearData yearData, string year)
+    void AddImage(ContentData.YearData yearData, string year)
     {
-        Image asset = Instantiate(popupImage);
         string folderPath = Application.streamingAssetsPath + "/material/" + year + "/";
         string url = Path.Combine(folderPath, yearData.imageURL);
+        Image asset = Instantiate(popupImage, container);
+        StartCoroutine(AddImageRoutine(asset, url));
+    }
+    void AddVideo(ContentData.YearData yearData, string year)
+    {
+        string folderPath = Application.streamingAssetsPath + "/material/" + year + "/";
+        string url = Path.Combine(folderPath, yearData.videoURL);
+        PopupVideoAsset asset = Instantiate(popupVideo, container);
+        asset.Init(this, yearData);
+        StartCoroutine(AddImageRoutine(asset.image, url));
+    }
+    IEnumerator AddImageRoutine(Image asset, string url)
+    {  
         Debug.Log("Load image: " + url);
         byte[] imgData;
 
@@ -63,13 +79,13 @@ public class Popup : MonoBehaviour
         asset.sprite = sprite;
           
        
-        float h =  asset.preferredHeight * 530 / asset.preferredWidth;
-        print(h + "    " + asset.preferredWidth + " " + asset.preferredHeight);
+        float h =  asset.preferredHeight * _width / asset.preferredWidth;
+        //print(h + "    " + asset.preferredWidth + " " + asset.preferredHeight);
 
-        asset.GetComponent<RectTransform>().sizeDelta = new Vector2(530, h);
+        asset.GetComponent<RectTransform>().sizeDelta = new Vector2(_width, h);
 
-        asset.transform.SetParent(container);
     }
+   
     public void Close()
     {
         CancelInvoke();
@@ -79,5 +95,9 @@ public class Popup : MonoBehaviour
     private void Reset()
     {
         gameObject.SetActive(false);
+    }
+    public void OpenVideo(ContentData.YearData data)
+    {
+
     }
 }

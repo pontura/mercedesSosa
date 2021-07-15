@@ -43,4 +43,5 @@ public class PopupManager : MonoBehaviour
     {       
         popup.Close();
     }
+    
 }
