@@ -15,11 +15,11 @@ D:/Repositorios/mercedesSosa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61195
+55095
 Successfully changed project path to: D:/Repositorios/mercedesSosa
 D:/Repositorios/mercedesSosa
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008292 seconds.
+Registered in 0.002683 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.448 seconds
+- Completed reload, in  1.904 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011046 seconds.
+Registered in 0.003186 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.325 seconds
+- Completed reload, in  1.006 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.0 MB.
 System memory in use after: 66.1 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1834.
-Total: 5.207300 ms (FindLiveObjects: 0.522300 ms CreateObjectMapping: 0.195700 ms MarkObjects: 4.334300 ms  DeleteObjects: 0.152200 ms)
+Total: 2.187800 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.945000 ms  DeleteObjects: 0.055800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,351 +80,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/StreamingAssets/data.json
-  artifactKey: Guid(0135e84a74915e04281d9cef6beeb845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/data.json using Guid(0135e84a74915e04281d9cef6beeb845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22152d01521cc779cca4523f3fe2071') in 0.082526 seconds 
-  Import took 0.104200 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005584 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.795 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.9 MB.
-System memory in use after: 66.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1837.
-Total: 4.514600 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.404500 ms MarkObjects: 3.685300 ms  DeleteObjects: 0.047300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.0 MB.
-System memory in use after: 66.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1840.
-Total: 2.636900 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.340200 ms  DeleteObjects: 0.026200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5203.185468 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/1_La voz de la Zafra (1962).jpg
-  artifactKey: Guid(64d3b840fae5d7243bd08bde30e65528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/1_La voz de la Zafra (1962).jpg using Guid(64d3b840fae5d7243bd08bde30e65528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9aed80664a63e10b8864d701d1773') in 0.492961 seconds 
-  Import took 0.496775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/12_Traigo un pueblo en mi voz.jpg
-  artifactKey: Guid(11fbc7cbda1eba547b60aef64b8f9b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/12_Traigo un pueblo en mi voz.jpg using Guid(11fbc7cbda1eba547b60aef64b8f9b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7699ea183ff28c2d2a702f4a858ad41') in 0.135562 seconds 
-  Import took 0.138729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/11_Hasta la victoria (1972).jpg
-  artifactKey: Guid(9ea553247c871524a90924f1d4ed313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/11_Hasta la victoria (1972).jpg using Guid(9ea553247c871524a90924f1d4ed313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ba35324fe1a338e55023a32f5e3714') in 0.057175 seconds 
-  Import took 0.061057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/2_Yo no canto por cantar (1966).jpg
-  artifactKey: Guid(0a06022986948024991dbb9065dfcb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/2_Yo no canto por cantar (1966).jpg using Guid(0a06022986948024991dbb9065dfcb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09570883b30f04a6a3d226f552eeb597') in 0.079591 seconds 
-  Import took 0.082090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/13_A que florezca mi pueblo.jpg
-  artifactKey: Guid(5e4b443ccad337b48a25b1cdabebae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/13_A que florezca mi pueblo.jpg using Guid(5e4b443ccad337b48a25b1cdabebae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbd47af0bb89f4468503ae7b6d07521') in 0.057985 seconds 
-  Import took 0.061822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/7_El grito de la tierra (1970).jpg
-  artifactKey: Guid(339504a9772940844a08da1d1717a4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/7_El grito de la tierra (1970).jpg using Guid(339504a9772940844a08da1d1717a4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6015d49186f6dcd0ca26b588b1c20b') in 0.076975 seconds 
-  Import took 0.080489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/3_Hermano (1966).jpg
-  artifactKey: Guid(ae026366f6e96a547b67dd4cc529a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/3_Hermano (1966).jpg using Guid(ae026366f6e96a547b67dd4cc529a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150fc0be184d9b3f19e6a46f5af96ba4') in 0.051815 seconds 
-  Import took 0.054329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/8_Navidad con Mercedes  Sosa(1970).jpg
-  artifactKey: Guid(fe183d076d88d434ca891be0d46b2b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/8_Navidad con Mercedes  Sosa(1970).jpg using Guid(fe183d076d88d434ca891be0d46b2b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a024047b1f1c71c9fa2bdb448137ae') in 0.039883 seconds 
-  Import took 0.043042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Timeline content/1945/4-17-de-octubre-dia-de-la-lealtad-peronista.jpeg
-  artifactKey: Guid(88b6df2f0797edd479e11a20dda1fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline content/1945/4-17-de-octubre-dia-de-la-lealtad-peronista.jpeg using Guid(88b6df2f0797edd479e11a20dda1fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0af8c485883b377da1a852fda54f9ef') in 0.071061 seconds 
-  Import took 0.073440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/1_La voz de la Zafra (1962).jpg
-  artifactKey: Guid(64d3b840fae5d7243bd08bde30e65528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/1_La voz de la Zafra (1962).jpg using Guid(64d3b840fae5d7243bd08bde30e65528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9aed80664a63e10b8864d701d1773') in 0.039271 seconds 
-  Import took 0.042241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/4_Para cantarle a mi gente (1966).jpg
-  artifactKey: Guid(3f4e8a386ba4ae0429bdd3ca873f4cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/4_Para cantarle a mi gente (1966).jpg using Guid(3f4e8a386ba4ae0429bdd3ca873f4cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537f68ba9a2fde753bc1fac20314752') in 0.056354 seconds 
-  Import took 0.059202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/14_ Disco de Oro.jpg
-  artifactKey: Guid(73ea9918b2f3f1949b58b780de21e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/14_ Disco de Oro.jpg using Guid(73ea9918b2f3f1949b58b780de21e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc69e1453507003a429fa7a8907874b3') in 0.117492 seconds 
-  Import took 0.121297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/9_Homenaje a Violeta Parra (1971).jpg
-  artifactKey: Guid(1e2211a44ab37c84490fb98501869fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/9_Homenaje a Violeta Parra (1971).jpg using Guid(1e2211a44ab37c84490fb98501869fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f6029f606f867a47c3eb8873781c05') in 0.063369 seconds 
-  Import took 0.066165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/5_Con sabor a Mercedes (1968).jpg
-  artifactKey: Guid(be0e8d8a4083bc24d9976927c6e593d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/5_Con sabor a Mercedes (1968).jpg using Guid(be0e8d8a4083bc24d9976927c6e593d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deda4625f5a4cc3403210d5d32e34232') in 0.120758 seconds 
-  Import took 0.124363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/10_Cantata Sudamericana (1972).jpg
-  artifactKey: Guid(2d55ee6972400024c867098469579e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/10_Cantata Sudamericana (1972).jpg using Guid(2d55ee6972400024c867098469579e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34743b4581be13b3e3c9b44ffd9ba33') in 0.128128 seconds 
-  Import took 0.131314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/images/discos/Tapas de discos - Hasta 1993/6_Mujeres Argentinas (1969).jpg
-  artifactKey: Guid(db13467eb19119a448e7b0d82c507630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/discos/Tapas de discos - Hasta 1993/6_Mujeres Argentinas (1969).jpg using Guid(db13467eb19119a448e7b0d82c507630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0ac5f252a0c342fc1bf582cdfe67a5') in 0.052691 seconds 
-  Import took 0.056622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2895.513499 seconds.
-  path: Assets/fonts/Arson Pro Medium.otf
-  artifactKey: Guid(3d281a3bc0b7f5e47bc9e9c4bb8170e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Medium.otf using Guid(3d281a3bc0b7f5e47bc9e9c4bb8170e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475fd35b51bf215461e06869feee0561') in 0.160633 seconds 
-  Import took 0.178138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/fonts/MontserratAlternates-Medium.otf
-  artifactKey: Guid(1beae0032b9bdaa4eacfa56dc62c6522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/MontserratAlternates-Medium.otf using Guid(1beae0032b9bdaa4eacfa56dc62c6522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62f72786f70d39e0d55c830dc054c63') in 0.049571 seconds 
-  Import took 0.052249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/fonts/Montserrat-Italic.otf
-  artifactKey: Guid(e87b7c05fa9b8a845a4607a9f79dabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Montserrat-Italic.otf using Guid(e87b7c05fa9b8a845a4607a9f79dabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081f0d5513804597ce0447818578825b') in 0.040658 seconds 
-  Import took 0.044123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/fonts/Montserrat-Medium.otf
-  artifactKey: Guid(d1c23cb66e6faf444a54bf63615aad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Montserrat-Medium.otf using Guid(d1c23cb66e6faf444a54bf63615aad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746c9cca1f25d434a209e67d63e84114') in 0.018715 seconds 
-  Import took 0.036099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/fonts/Montserrat-Light.otf
-  artifactKey: Guid(707564406fc69b244a4d29077378e088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Montserrat-Light.otf using Guid(707564406fc69b244a4d29077378e088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f791949d76d26b0b93f0a6fe60b0f027') in 0.037661 seconds 
-  Import took 0.048029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/fonts/MontserratAlternates-Bold.otf
-  artifactKey: Guid(c5ffb8993792dd9478d5a8d180cd5b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/MontserratAlternates-Bold.otf using Guid(c5ffb8993792dd9478d5a8d180cd5b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c054aaa85ba95ef2641049267e618') in 0.027177 seconds 
-  Import took 0.030325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/fonts/MontserratAlternates-Thin.otf
-  artifactKey: Guid(750c33dcb61f5084ba8ee803584dc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/MontserratAlternates-Thin.otf using Guid(750c33dcb61f5084ba8ee803584dc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d845442991d4178c41e2f73d77dad9') in 0.037210 seconds 
-  Import took 0.040684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/fonts/Montserrat-Regular.otf
-  artifactKey: Guid(9724255f59a834e42af8a3e8a3d08319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Montserrat-Regular.otf using Guid(9724255f59a834e42af8a3e8a3d08319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313e806f1774000115b561f548b00b86') in 0.018916 seconds 
-  Import took 0.034294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/fonts/Arson Pro Medium Italic.otf
-  artifactKey: Guid(70e6d841cd6608748ab46159e06f5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Medium Italic.otf using Guid(70e6d841cd6608748ab46159e06f5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67af9d64bf5912bd4cc4d9f4c62ea9f0') in 0.029070 seconds 
-  Import took 0.032799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/fonts/Arson Pro Regular.otf
-  artifactKey: Guid(c480ec15e0ff8d144964649fc5f95ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Regular.otf using Guid(c480ec15e0ff8d144964649fc5f95ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f241ff9fb0025129dc59421081780') in 0.041974 seconds 
-  Import took 0.056811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/fonts/Arson Pro Medium Italic.otf
-  artifactKey: Guid(70e6d841cd6608748ab46159e06f5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Medium Italic.otf using Guid(70e6d841cd6608748ab46159e06f5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67af9d64bf5912bd4cc4d9f4c62ea9f0') in 0.008081 seconds 
-  Import took 0.010750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/fonts/Arson Pro Regular.otf
-  artifactKey: Guid(c480ec15e0ff8d144964649fc5f95ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Regular.otf using Guid(c480ec15e0ff8d144964649fc5f95ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f241ff9fb0025129dc59421081780') in 0.007661 seconds 
-  Import took 0.010189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/fonts/Montserrat-Bold.otf
-  artifactKey: Guid(644436dcabd1462448503499e8f2a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Montserrat-Bold.otf using Guid(644436dcabd1462448503499e8f2a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f271b5b6f527db41e7175e1cc4010945') in 0.008842 seconds 
-  Import took 0.012466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.181910 seconds.
-  path: Assets/fonts/Arson Pro Bold.otf
-  artifactKey: Guid(df00c2e6d0a2b244d85025ac09914659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Bold.otf using Guid(df00c2e6d0a2b244d85025ac09914659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6813420623e95f8f80f286afb722c8e6') in 0.027423 seconds 
-  Import took 0.030041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/fonts/Arson Pro Light.otf
-  artifactKey: Guid(3208eed1650070548824db22a744a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fonts/Arson Pro Light.otf using Guid(3208eed1650070548824db22a744a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576cf84e45ae46b2e0e379f5122974d9') in 0.016614 seconds 
-  Import took 0.020103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 845.732064 seconds.
-  path: Assets/animations/ui_timeline.anim
-  artifactKey: Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ui_timeline.anim using Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a035f20e22e7741e2ba123f0f38b1a') in 0.010412 seconds 
-  Import took 0.014100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000740 seconds.
-  path: Assets/animations/ui_timeline.anim
-  artifactKey: Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ui_timeline.anim using Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a035f20e22e7741e2ba123f0f38b1a') in 0.364968 seconds 
-  Import took 0.368859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.535182 seconds.
-  path: Assets/animations/ui_timeline_idle.anim
-  artifactKey: Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ui_timeline_idle.anim using Guid(918fa8c66b55cb746bd5ee8270d451e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d682878987cfd64c0f2772ac729f64') in 0.002599 seconds 
-  Import took 0.005062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.965583 seconds.
   path: Assets/animations/Canvas.controller
   artifactKey: Guid(06c69ef2cf8919c479c9a32076f0b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/Canvas.controller using Guid(06c69ef2cf8919c479c9a32076f0b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720609c811bd384d8d0a193e36f17136') in 0.019073 seconds 
-  Import took 0.042141 seconds .
+Start importing Assets/animations/Canvas.controller using Guid(06c69ef2cf8919c479c9a32076f0b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f949b480e5a976c25a8af1480f8ea8') in 0.033360 seconds 
+  Import took 0.035537 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
