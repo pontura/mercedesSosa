@@ -8,7 +8,7 @@ public class YearsManager : MonoBehaviour
     public Transform container;
     public float y_separationFactor;
     int firstYear;
-    int offset = 100;
+    public int initialOffset = 100;
     public List<YearButton> all;
 
     void Start()
@@ -32,7 +32,7 @@ public class YearsManager : MonoBehaviour
             newButton.transform.localScale = Vector3.one;
             newButton.Init(this, data);
             int _y = data.year - firstYear;
-            newButton.transform.localPosition = new Vector2(0, -offset - _y*y_separationFactor);
+            newButton.transform.localPosition = new Vector2(0, -initialOffset - _y*y_separationFactor);
             print(newButton.transform.localPosition);
             all.Add(newButton);
         }
