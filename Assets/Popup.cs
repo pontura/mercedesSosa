@@ -54,7 +54,7 @@ public class Popup : MonoBehaviour
         string url = Path.Combine(folderPath, yearData.videoURL);
         PopupVideoAsset asset = Instantiate(popupVideo, container);
         asset.Init(this, yearData);
-        StartCoroutine(AddImageRoutine(asset.image, url));
+        StartCoroutine(AddImageRoutine(asset.image, url+ ".png"));
     }
     IEnumerator AddImageRoutine(Image asset, string url)
     {  
@@ -96,8 +96,8 @@ public class Popup : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
-    public void OpenVideo(ContentData.YearData data)
+    public void OpenVideo(ContentData.YearData yearData)
     {
-
+        Events.OnPlayVideo(Application.streamingAssetsPath +  "/material/" + data.year + "/"  + yearData.videoURL + ".mp4");
     }
 }
