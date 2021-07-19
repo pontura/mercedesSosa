@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class YearsManager : MonoBehaviour
 {
@@ -11,10 +12,12 @@ public class YearsManager : MonoBehaviour
     public int initialOffset = 100;
     public List<YearButton> all;
     public Filters filters;
-
+    public Scrollbar scrollBar;
     
     public void Init(int filterID)
-    {
+    {        
+        all.Clear();
+        bool isFirst = false;
         Utils.RemoveAllChildsIn(container);
         firstYear = Data.Instance.contentData.allData.data[0].year;
         foreach (ContentData.DataContent data in Data.Instance.contentData.allData.data)
@@ -34,8 +37,14 @@ public class YearsManager : MonoBehaviour
                 newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
                 print(newButton.transform.localPosition);
                 all.Add(newButton);
+                if(!isFirst)
+                {
+                    newButton.Clicked();
+                    isFirst = true;
+                }
             }
         }
+        scrollBar.value = 1;
     }
     public void OnClicked(YearButton yearButton)
     {
