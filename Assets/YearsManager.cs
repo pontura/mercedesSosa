@@ -10,31 +10,31 @@ public class YearsManager : MonoBehaviour
     int firstYear;
     public int initialOffset = 100;
     public List<YearButton> all;
+    public Filters filters;
 
-    void Start()
+    
+    public void Init(int filterID)
     {
-        Loop();
-    }
-    void Loop()
-    {
-        if (Data.Instance.contentData.allData.data.Length > 0)
-            AllLoaded();
-        else
-           Invoke("Loop", 0.1f);
-    }
-    void AllLoaded()
-    {
-       // Utils.RemoveAllChildsIn(container);
+        Utils.RemoveAllChildsIn(container);
         firstYear = Data.Instance.contentData.allData.data[0].year;
         foreach (ContentData.DataContent data in Data.Instance.contentData.allData.data)
         {
-            YearButton newButton = Instantiate(yearButton, container);
-            newButton.transform.localScale = Vector3.one;
-            newButton.Init(this, data);
-            int _y = data.year - firstYear;
-            newButton.transform.localPosition = new Vector2(0, -initialOffset - _y*y_separationFactor);
-            print(newButton.transform.localPosition);
-            all.Add(newButton);
+            if (filterID == 3 || 
+                (filterID == 0 && data.type == "discos")
+                 ||
+                (filterID == 1 && data.type == "premios")
+                 ||
+                (filterID == 2 && data.type == "colaboraciones")
+               )
+            {
+                YearButton newButton = Instantiate(yearButton, container);
+                newButton.transform.localScale = Vector3.one;
+                newButton.Init(this, data);
+                int _y = data.year - firstYear;
+                newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
+                print(newButton.transform.localPosition);
+                all.Add(newButton);
+            }
         }
     }
     public void OnClicked(YearButton yearButton)
