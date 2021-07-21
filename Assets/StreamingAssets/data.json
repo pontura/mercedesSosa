@@ -3,7 +3,7 @@
 	[
 		{
 			"year":"1935",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{
@@ -20,7 +20,7 @@
 			},
 			{
 			"year":"1945",
-			"type": "premios",
+			"type": "bio",
 			"content":
 			[
 				{
@@ -33,7 +33,7 @@
 		},
 		{
 			"year":"1950",
-			"type": "colaboraciones",
+			"type": "bio",
 			"content":
 			[
 				{"text": "Yo andaba por mis 15 años. Mi papá y mi mamá, que eran muy peronistas, aprovecharon un tren gratis a Buenos Aires para celebrar el 17 de Octubre [Día de la Lealtad Peronista]. Yo quedé cuidada por mis hermanos, más suelta… En la escuela faltó la profesora de canto y la directora me dijo que íbamos a cantar el Himno nacional y que yo tenía que ponerme adelante y cantar bien fuerte, para que todos me siguieran. Sentí vergüenza, pero canté: ahí debuté. Ese día también faltó la profesora de labores y con mis compañeras fuimos a la radio LV12, donde había un concurso. Mis compañeras me empujaron para que cantara. Por temor a que se enterara mi papá me llamé Gladys Osorio. Canté Triste estoy, de Margarita Palacios. Cuando terminé, el dueño de la radio me dijo: «El concurso concluyó y lo ganaste vos». Y seguí cantando en la radio."},
@@ -47,7 +47,7 @@
 		},
 		{
 			"year":"1953",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "De esos primeros años viene su apego por las expresiones artísticas populares. Recién salida de la adolescencia, le gustaba bailar y enseñaba danzas folklóricas. También cantaba."},
