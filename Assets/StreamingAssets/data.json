@@ -58,7 +58,7 @@
 		},
 		{
 			"year":"1957",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "A los 22 años se mudó a la ciudad de Mendoza, tras casarse con Oscar Matus."},
@@ -69,7 +69,7 @@
 		},
 		{
 			"year":"1958",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "En 1958 nació su hijo Fabián Matus."},
@@ -94,7 +94,7 @@
 		},
 		{
 			"year":"1962",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "En 1962 con Matus y Tejada Gómez fundaron el “Movimiento del Nuevo Cancionero”. Se presentaron en febrero de 1963 en el Círculo de Periodistas de Mendoza con un manifiesto del colectivo, que no solo tenía una intención estética, sino también política."},
@@ -111,7 +111,7 @@
 		},
 		{
 			"year":"1965",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "En 1965 Mercedes decidió mudarse a Buenos Aires. Ese mismo año ocurrió en el festival de Cosquín algo que cambiaría la carrera de Mercedes. Los organizadores decidieron no incluirla en la grilla, sin embargo, Jorge Cafrune arriba del escenario la invitó a participar. Así la presentó: “Yo me voy a atrever, porque es un atrevimiento lo que voy a hacer ahora, y me voy a recibir un tirón de orejas por la Comisión [organizadora], pero qué le vamos a hacer… Siempre he sido así, galopeador contra el viento. Les voy a ofrecer el canto de una mujer purísima, que no ha tenido oportunidad de darlo y que como les digo, aunque se arme bronca, les voy a dejar con ustedes a una tucumana: Mercedes Sosa"},
@@ -255,7 +255,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Por eso, una vez que se instaló la dictadura cívico militar en 1976, sus discos fueron censurados y se le prohibió tocar en público. Sin embargo, ella decidió editar igual un álbum que se tituló Mercedes Sosa, la mamancy."},
+				{"text": "Una vez que se instaló la dictadura cívico militar en 1976, sus discos fueron censurados y se le prohibió tocar en público. Sin embargo, ella decidió editar igual un álbum que se tituló Mercedes Sosa, la mamancy."},
 				{
 					"imageURL": "15_En direccion del viento (1976).jpg"
 				},
@@ -267,7 +267,7 @@
 		},
 		{
 			"year":"1977",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "En 1977, presentó Mercedes Sosa interpreta a Atahualpa Yupanqui y también el simple Si se calla el cantor junto a Horacio Guarany. Además, ese mismo año grabó otro simple con dos canciones: Cio da terra (con Chico Buarque) y San Vicente (con Fernando Brant).Para evadir la persecución política que vivía en el país decidió salir de gira por Europa y el norte de África. "},
@@ -278,7 +278,7 @@
 		},
 		{
 			"year":"1978",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "Decidió volver a la Argentina. Ese año realizó un show en La Plata y los militares ingresaron al lugar, la detuvieron mientras estaba arriba del escenario y al mismo tiempo esposaron a todas las personas del público."},
@@ -289,7 +289,7 @@
 		},
 		{
 			"year":"1979",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "Mercedes en 1979 decide exiliarse durante cuatro años. Primero viaja a Francia y luego a España. Años dolorosos. En 1978 había fallecido su segundo marido, Pocho Mazitelli. Así cuenta esos tiempos: “Todo fue difícil e iba sola para todos lados, manejando de Madrid a París. Allá tuve que aprender hasta otra manera de cantar, porque miraba gente que ni entendía mi idioma”."},
@@ -314,7 +314,7 @@
 		},
 		{
 			"year":"1982",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "Volvió a la Argentina en febrero de 1982. Y realizó una serie de 13 recitales históricos a sala repleta en el Teatro Ópera de Buenos Aires, que se convirtieron en un acto cultural contra la dictadura. Entre los invitados a los shows estuvieron León Gieco y Charly García. Mercedes Sosa entendía que dentro del Movimiento del Nuevo Cancionero debía incluirse al rock argentino. De esos shows salió el disco Mercedes Sosa en Argentina."},
@@ -356,7 +356,7 @@
 		},
 		{
 			"year":"1985",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "Público dos discos: Yo vengo a ofrecer mi corazón y Corazón americano, que fue un registro del recital que realizó junto a Milton Nascimento y León Gieco."},
@@ -381,7 +381,7 @@
 		},
 		{
 			"year":"1990",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "Con la llegada de la década del noventa la carrera de Mercedes Sosa tuvo una proyección internacional que no había tenido hasta entonces. Empezó a ser conocida con el nombre de “La Voz de América Latina”. Sus shows empezaron a aparecer en escenarios icónicos de distintas partes del mundo: el Lincoln Center, el Carnegie Hall, el Mogador de París, el Concertgebouw de Ámsterdam y hasta el Coliseo de Roma."},
@@ -448,7 +448,7 @@
 		},
 		{
 			"year":"1995",
-			"type": "discos",
+			"type": "bio",
 			"content":
 			[
 				{"text": "En 1995 decidió que no cantaría más en la provincia de Tucumán ya que el represor Antonio Domingo Bussi (condenado a cadena perpetua por crímenes de lesa humanidad en 2008) había sido electo como gobernador de la provincia. Recién el 10 de diciembre de 1999 Bussi dejó su cargo​ y 16 días después la Negra volvió a cantar en Tucumán."}
@@ -459,7 +459,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Al año siguiente publicó el álbum Escondido en mi país (1996)."},
+				{"text": "Publicó el álbum Escondido en mi país (1996)."},
 				{
 					"imageURL": "1996 - disco_escondida en mi pais.jpeg"
 				}
@@ -467,7 +467,7 @@
 		},
 		{
 			"year":"1997",
-			"type": "discos",
+			"type": "colaboraciones",
 			"content":
 			[
 				{"text": "En la edición de Cosquín de 1997, realizada el 26 de enero, ocurrió un hecho que fue clave en la historia del festival. Cuando Mercedes subió al escenario invitó a Charly García a cantar con ella “Rezo por vos”, “Inconsciente colectivo”, “De mí” y el Himno Nacional. El público se volvió loco.Ese concierto fue la semilla del proyecto titulado Alta fidelidad (1997), un disco que grabaron Sosa y García ese mismo año. Fueron versiones de temas de Charly, cantados por ambos, y con muchos músicos invitados, entre los que estaban: Pedro Aznar, Luis Alberto Spinetta, Juanse, Nito Mestre, María Gabriela Epumer y Andrés Calamaro."},
@@ -481,7 +481,7 @@
 		},
 		{
 			"year":"1998",
-			"type": "discos",
+			"type": "premios",
 			"content":
 			[
 				{"text": "En 1998 grabó uno de sus discos más importantes: Al despertar. El disco consiguió ganar el Premio Gardel al Disco del Año. Esa fue la primera vez en la historia que una mujer consiguió ese premio."},
