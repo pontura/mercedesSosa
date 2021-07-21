@@ -6,6 +6,9 @@ public class UIManager : MonoBehaviour
 {
     static UIManager mInstance = null;
     Animator anim;
+    public int sec;
+    public int idleTime = 5;
+    bool isIdle;
 
     public static UIManager Instance
     {
@@ -15,6 +18,28 @@ public class UIManager : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         mInstance = this;
+        Loop();
+        Splash();
+    }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+            ResetTimer();
+    }
+    void Loop()
+    {
+        if(!isIdle && !GetComponent<VideoScreen>().videoPlayer.isPlaying)
+            sec++;
+        Invoke("Loop", 1);
+        if(sec > idleTime)
+        {
+            ResetTimer();
+            Splash();
+        }
+    }
+    void ResetTimer()
+    {
+        sec = 0;
     }
     public PopupManager popupManager;
 
@@ -28,10 +53,13 @@ public class UIManager : MonoBehaviour
     }
     public void Splash()
     {
+        GetComponent<VideoScreen>().Close();
+        isIdle = true;
         anim.Play("ui_splash_entry");
     }
     public void SplashOff()
     {
+        isIdle = false;
         anim.Play("ui_timeline_entry");
     }
 }

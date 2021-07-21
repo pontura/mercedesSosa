@@ -2705,6 +2705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6e17fe376196b5428652a7fe5037ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sec: 0
+  idleTime: 60
   popupManager: {fileID: 915691007}
 --- !u!95 &915691009
 Animator:
