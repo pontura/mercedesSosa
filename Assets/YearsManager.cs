@@ -28,8 +28,6 @@ public class YearsManager : MonoBehaviour
                 (filterID == 1 && data.type == "premios")
                  ||
                 (filterID == 2 && data.type == "colaboraciones")
-                  ||
-                (data.type == "bio")
                )
             {
                 YearButton newButton = Instantiate(yearButton, container);
