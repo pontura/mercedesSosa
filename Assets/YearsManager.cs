@@ -43,7 +43,14 @@ public class YearsManager : MonoBehaviour
                 }
             }
         }
-        scrollBar.value = 1;
+        if(filterID == 0)
+            scrollBar.value = 0.690f;
+        else if (filterID == 1)
+            scrollBar.value = 0.1553f;
+        else if (filterID == 2)
+            scrollBar.value = 0.649f;
+        else
+            scrollBar.value = 1;
     }
     public void OnClicked(YearButton yearButton)
     {
