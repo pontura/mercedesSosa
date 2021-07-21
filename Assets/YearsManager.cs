@@ -28,6 +28,8 @@ public class YearsManager : MonoBehaviour
                 (filterID == 1 && data.type == "premios")
                  ||
                 (filterID == 2 && data.type == "colaboraciones")
+                  ||
+                (data.type == "bio")
                )
             {
                 YearButton newButton = Instantiate(yearButton, container);
@@ -35,7 +37,6 @@ public class YearsManager : MonoBehaviour
                 newButton.Init(this, data);
                 int _y = data.year - firstYear;
                 newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
-                print(newButton.transform.localPosition);
                 all.Add(newButton);
                 if(!isFirst)
                 {

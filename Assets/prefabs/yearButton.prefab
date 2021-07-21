@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 49a20c3fcf5c56f48b42377c9d473c8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 981d60686a1f40f4caa41ca581eb2c1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b312f554d4037a54294b12b9d0249d51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 767752ea5120c7c4ab9d58b963e50381, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 7817097869430657148}
   - component: {fileID: 314492045962960764}
   m_Layer: 5
-  m_Name: yearButton
+  m_Name: yearButton_discos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,6 +405,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5f57839c8373d479608d099bfe72d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  images_discos:
+  - {fileID: 21300000, guid: 767752ea5120c7c4ab9d58b963e50381, type: 3}
+  - {fileID: 21300000, guid: 981d60686a1f40f4caa41ca581eb2c1c, type: 3}
+  images_colaboracion:
+  - {fileID: 21300000, guid: 9b07c01f5fe673b4cb420fbc55dba2fe, type: 3}
+  - {fileID: 21300000, guid: 46917a479b4b6cb4ea86be3ac9f69b6b, type: 3}
+  images_premios:
+  - {fileID: 21300000, guid: b312f554d4037a54294b12b9d0249d51, type: 3}
+  - {fileID: 21300000, guid: 49a20c3fcf5c56f48b42377c9d473c8d, type: 3}
+  images:
+  - {fileID: 6331456398824288154}
+  - {fileID: 111912427710877495}
   fields:
   - {fileID: 210848517644354117}
   - {fileID: 6253724355552948230}
