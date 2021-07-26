@@ -492,6 +492,97 @@
 					"imageURL": "1998 - gardel de oro.jpeg"
 				}
 			]
+		},
+		{
+			"year":"1999",
+			"type": "colaboraciones",
+			"content":
+			[
+				{"text": "En 1999 cantó con Luciano Pavarotti en el estadio del Club Boca Juniors de Buenos Aires."},
+				{
+					"imageURL": "1999 - con pavarotti 3.jpeg"
+				}
+			]
+		},
+		{
+			"year":"2000",
+			"type": "disco",
+			"content":
+			[
+				{"text": "Empezados los años dos mil, Mercedes publicó un disco en vivo: Acústico en el Gran Rex. "}
+			]
+		},
+		{
+			"year":"2002",
+			"type": "colaboraciones",
+			"content":
+			[
+				{"text": "Al año siguiente, en 2002, empezó un proyecto colaborativo, con Victor Heredia y León Gieco, llamado Argentina quiere cantar. Se trató de una gira de conciertos que dieron los tres por diferentes lugares de la Argentina que sucedieron entre 2003 y 2005. En paralelo tendría otro proyecto más, también en colaboración, pero con la pianista Martha Argerich. Se trató de un recital a dúo en el teatro Colón."},
+				{
+					"imageURL": "2002 - argentina quiere cantar dico.jpeg"
+				},
+				{
+					"imageURL": "2002 - Mercedes Sosa Martha Argerich. 3.jpeg"
+				}
+			]
+		},
+		{
+			"year":"2005",
+			"type": "colaboraciones",
+			"content":
+			[
+				{"text": "En 2005 publicó Corazón libre. El álbum fue muy premiado: ganó un Grammy Latino y otro Premio Gardel. A partir de ese momento la salud de Mercedes empezó a deteriorarse. "},
+				{
+					"imageURL": "2005 - Mercedes-Sosa grammy.jpeg"
+				}
+			]
+		},
+		{
+			"year":"2007",
+			"type": "bio",
+			"content":
+			[
+				{"text": "En 2007 participó fue la figura principal del acto realizado el 10 de diciembre por el retorno de la democracia y la asunción de Cristina Fernández de Kirchner como presidenta. "},
+				{
+					"imageURL": "2007 - con cristina.jpeg"
+				}
+			]
+		},
+		{
+			"year":"2008",
+			"type": "colaboraciones",
+			"content":
+			[
+				{"text": "El 30 de junio de 2008 cantó en Tucumán para los presidentes de los países miembros y asociados del Mercosur. Durante ese año empezó a grabar Cantora, que sería su último disco -y uno de los más ambiciosos- donde canta 34 canciones a dúo con destacados cantantes argentinos y de distintas partes de América Latina. Además, cierra con una versión del himno nacional argentino. Volvió a demostrar su total desprejuicio sobre los géneros musicales y grabó con: René de Calle 13, Julieta Venegas, Fito Páez, Gustavo Cerati, Luis Alberto Spinetta, Liliana Herrero, León Gieco, Teresa Parodi, Jorge Drexler, Caetano Veloso, Soledad, Orozco-Barrientos, Gustavo Santaolalla y Vicentico, por mencionar algunos. Gracias a este álbum se llevó dos premios Grammy Latino: mejor álbum de folklore y mejor diseño de portada. Además, Cantora fue lanzado junto a una película documental que registra todos los viajes que hizo Mercedes para grabar las canciones con todos estos artistas. "},
+				{
+					"imageURL": "2008 - cantora.jpg"
+				},
+				{
+					"videoURL": "2008 - cantora zamba del cielo"
+				}
+			]
+		},
+		{
+			"year":"2009",
+			"type": "bio",
+			"content":
+			[
+				{"text": "En 2009, Mercedes falleció. El 18 de septiembre ingresó al Sanatorio de la Trinidad, en Buenos Aires, debido a una disfunción renal, la cual había evolucionado negativamente hacia una falla cardiorrespiratoria. El estado de salud se volvió crítico el 2 de octubre de 2009: a partir de entonces, el cuadro de salud de la artista de 74 años se había deteriorado. Finalmente, su organismo se deterioró con el correr de las horas y falleció a las 5 de la mañana del 4 de octubre de 2009. Sus restos fueron velados en el Congreso Nacional de la Argentina."},
+				{
+					"imageURL": "2009 - velorio.jpeg"
+				}
+			]
+		},
+		{
+			"year":"MercedesEterna",
+			"type": "bio",
+			"content":
+			[
+				{"text": "Luego de su muerte se editaron cuatro discos que recopilaron canciones que estaban en otros álbumes o que habían sido quitadas de selecciones oficiales, como las que fueron censuradas durante la dictadura. Estos discos son: Censurada (2011), Siempre en ti (2013), Ángel (2014) y Lucerito (2015).Su voz permitió que todo un mundo conociera a los creadores de Latinoamérica, logrando el amor y reconocimiento de sus pares, y el agradecimiento de su público a lo largo de varias generaciones.Desde  invitamos a recorrer gran parte de su intensa vida y conocer aún más el valor de su legado y compromiso con la humanidad."},
+				{
+					"imageURL": "Mercedes eterna - foto final.jpeg"
+				}
+			]
 		}
 		
 	]
