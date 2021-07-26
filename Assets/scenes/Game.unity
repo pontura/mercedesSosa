@@ -919,6 +919,7 @@ MonoBehaviour:
   data:
     year: 0
     type: 
+    other_types: []
     content: []
   yearID: 0
 --- !u!1 &325162126
@@ -2085,7 +2086,7 @@ MonoBehaviour:
   scrollBar: {fileID: 1972966679}
   yearID: 0
   totalButtons_value: 0.54
-  factor: 0.0137
+  factor: 0.021
   minScrollSize: 0.001
   scrollSmooth: 0.04
 --- !u!114 &915691003
@@ -3233,7 +3234,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000116386334}
-  m_SizeDelta: {x: 0, y: 5885.17}
+  m_SizeDelta: {x: 0, y: 3358.172}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1434244619
 GameObject:
@@ -4755,7 +4756,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1015630081}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.23210885
+  m_Size: 0.4067689
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
