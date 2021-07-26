@@ -17,9 +17,9 @@ public class YearsManager : MonoBehaviour
     public void Init(int filterID)
     {        
         all.Clear();
-        bool isFirst = false;
         Utils.RemoveAllChildsIn(container);
         firstYear = Data.Instance.contentData.allData.data[0].year;
+        int id = 0;
         foreach (ContentData.DataContent data in Data.Instance.contentData.allData.data)
         {
             if (filterID == 3 || 
@@ -34,23 +34,23 @@ public class YearsManager : MonoBehaviour
                 newButton.transform.localScale = Vector3.one;
                 newButton.Init(this, data);
                 int _y = data.year - firstYear;
-                newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
+                //  newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
+                newButton.transform.localPosition = new Vector2(0, -initialOffset - (id * y_separationFactor));
+               
                 all.Add(newButton);
-                if(!isFirst)
-                {
+                if(id == 0)
                     newButton.Clicked();
-                    isFirst = true;
-                }
+                id++;
             }
         }
-        if(filterID == 0)
-            scrollBar.value = 0.690f;
-        else if (filterID == 1)
-            scrollBar.value = 0.1553f;
-        else if (filterID == 2)
-            scrollBar.value = 0.649f;
-        else
-            scrollBar.value = 1;
+        //if(filterID == 0)
+        //    scrollBar.value = 0.690f;
+        //else if (filterID == 1)
+        //    scrollBar.value = 0.1553f;
+        //else if (filterID == 2)
+        //    scrollBar.value = 0.649f;
+        //else
+        //    scrollBar.value = 1;
     }
     public void OnClicked(YearButton yearButton)
     {
