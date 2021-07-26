@@ -16,6 +16,22 @@ public class YearsManager : MonoBehaviour
     public int yearID = 0;
     public float totalButtons_value = 0.54f;
     
+    bool IsInOtherTypes(string[] arr, int filterID)
+    {
+        if (arr == null || arr.Length < 1) return false;
+        foreach(string s in arr)
+        {
+            if (
+               (filterID == 0 && s == "discos")
+                ||
+               (filterID == 1 && s == "premios")
+                ||
+               (filterID == 2 && s == "colaboraciones")
+               )
+                return true;
+        }
+        return false;
+    }
     public void Init(int filterID)
     {
         yearID = 0;
@@ -31,6 +47,7 @@ public class YearsManager : MonoBehaviour
                 (filterID == 1 && data.type == "premios")
                  ||
                 (filterID == 2 && data.type == "colaboraciones")
+                || (IsInOtherTypes(data.other_types, filterID))
                )
             {
                 YearButton newButton = Instantiate(yearButton, container);
@@ -47,14 +64,6 @@ public class YearsManager : MonoBehaviour
             }
         }
         yearID = 0;
-        //if(filterID == 0)
-        //    scrollBar.value = 0.690f;
-        //else if (filterID == 1)
-        //    scrollBar.value = 0.1553f;
-        //else if (filterID == 2)
-        //    scrollBar.value = 0.649f;
-        //else
-        //    scrollBar.value = 1;
     }
     void MoveScroll()
     {

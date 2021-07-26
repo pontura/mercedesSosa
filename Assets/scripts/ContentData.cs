@@ -20,6 +20,7 @@ public class ContentData : MonoBehaviour
     {
         public int year;
         public string type;
+        public string[] other_types;
         public YearData[] content;
     }
 

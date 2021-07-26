@@ -4,6 +4,7 @@
 		{
 			"year":"1935",
 			"type": "bio",
+			"other_types": ["discos","colaboraciones"],
 			"content":
 			[
 				{
