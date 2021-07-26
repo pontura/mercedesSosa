@@ -13,13 +13,16 @@ public class YearsManager : MonoBehaviour
     public List<YearButton> all;
     public Filters filters;
     public Scrollbar scrollBar;
+    public int yearID = 0;
+    public float totalButtons_value = 0.54f;
     
     public void Init(int filterID)
-    {        
+    {
+        yearID = 0;
         all.Clear();
         Utils.RemoveAllChildsIn(container);
         firstYear = Data.Instance.contentData.allData.data[0].year;
-        int id = 0;
+
         foreach (ContentData.DataContent data in Data.Instance.contentData.allData.data)
         {
             if (filterID == 3 || 
@@ -32,15 +35,15 @@ public class YearsManager : MonoBehaviour
             {
                 YearButton newButton = Instantiate(yearButton, container);
                 newButton.transform.localScale = Vector3.one;
-                newButton.Init(this, data);
+                newButton.Init(this, data, yearID);
                 int _y = data.year - firstYear;
                 //  newButton.transform.localPosition = new Vector2(0, -initialOffset - _y * y_separationFactor);
-                newButton.transform.localPosition = new Vector2(0, -initialOffset - (id * y_separationFactor));
+                newButton.transform.localPosition = new Vector2(0, -initialOffset - (yearID * y_separationFactor));
                
                 all.Add(newButton);
-                if(id == 0)
+                if(yearID == 0)
                     newButton.Clicked();
-                id++;
+                yearID++;
             }
         }
         //if(filterID == 0)
@@ -52,15 +55,74 @@ public class YearsManager : MonoBehaviour
         //else
         //    scrollBar.value = 1;
     }
+    void MoveScroll()
+    {
+
+    }
+    states state;
+    enum states
+    {
+        IDLE,
+        REPOSITION
+    }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+            state = states.IDLE;
+        if (Input.GetKeyDown(KeyCode.Z))
+            Move(true);
+        else if (Input.GetKeyDown(KeyCode.X))
+            Move(false);
+        if(state == states.REPOSITION)
+            scrollBar.value = Mathf.Lerp(scrollBar.value, scrollValue, scrollSmooth);
+        if(Mathf.Abs(scrollBar.value- scrollValue)< minScrollSize)
+        {
+            state = states.IDLE;
+            scrollBar.value = scrollValue;
+        }
+    }
+    public float factor = 0.0137f;
+    public float minScrollSize = 0.001f;
+    public float scrollSmooth = 0.04f;
+
+    float scrollValue;
+    void UpdateScroll()
+    {
+        state = states.REPOSITION;
+        scrollValue = 1 - (yearID * factor);
+    }
+    void Move(bool isNext)
+    {
+        if (isNext)
+            yearID++;
+        else
+            yearID--;
+        if (yearID < 0)
+        {
+            yearID = 0;
+            return;
+        }
+        if (yearID > all.Count - 1)
+        {
+            yearID = all.Count - 1;
+            return;
+        }
+        all[yearID].Clicked();
+    }
+   
     public void OnClicked(YearButton yearButton)
     {
         foreach (YearButton b in all)
             if (b.isOn && b != yearButton)
                 b.Reset();
 
+        this.yearID = yearButton.yearID;
+
         if (yearButton.isOn)
             UIManager.Instance.Open(yearButton.data);
         else
             UIManager.Instance.Close();
+
+        UpdateScroll();
     }
 }

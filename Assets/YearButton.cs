@@ -18,8 +18,11 @@ public class YearButton : MonoBehaviour
     Animation anim;
     YearsManager manager;
     public ContentData.DataContent data;
-    public void Init(YearsManager manager, ContentData.DataContent data)
+    public int yearID;
+
+    public void Init(YearsManager manager, ContentData.DataContent data, int yearID)
     {
+        this.yearID = yearID;
         this.manager = manager;
         this.data = data;
         SetState();
