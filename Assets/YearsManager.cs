@@ -46,6 +46,7 @@ public class YearsManager : MonoBehaviour
                 yearID++;
             }
         }
+        yearID = 0;
         //if(filterID == 0)
         //    scrollBar.value = 0.690f;
         //else if (filterID == 1)
@@ -69,10 +70,10 @@ public class YearsManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
             state = states.IDLE;
-        if (Input.GetKeyDown(KeyCode.Z))
-            Move(true);
-        else if (Input.GetKeyDown(KeyCode.X))
-            Move(false);
+        //if (Input.GetKeyDown(KeyCode.Z))
+        //    Move(true);
+        //else if (Input.GetKeyDown(KeyCode.X))
+        //    Move(false);
         if(state == states.REPOSITION)
             scrollBar.value = Mathf.Lerp(scrollBar.value, scrollValue, scrollSmooth);
         if(Mathf.Abs(scrollBar.value- scrollValue)< minScrollSize)
@@ -91,7 +92,7 @@ public class YearsManager : MonoBehaviour
         state = states.REPOSITION;
         scrollValue = 1 - (yearID * factor);
     }
-    void Move(bool isNext)
+    public void Move(bool isNext)
     {
         if (isNext)
             yearID++;

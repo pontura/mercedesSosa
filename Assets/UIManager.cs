@@ -5,10 +5,12 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     static UIManager mInstance = null;
-    Animator anim;
+    public Animator menuAnim;
     public int sec;
     public int idleTime = 5;
     bool isIdle;
+    public Animator anim;
+
 
     public static UIManager Instance
     {
@@ -61,5 +63,14 @@ public class UIManager : MonoBehaviour
     {
         isIdle = false;
         anim.Play("ui_timeline_entry");
+    }
+    bool isOpen;
+    public void ToggleMenu()
+    {
+        isOpen = !isOpen;
+        if(isOpen)
+            menuAnim.Play("menu_on_entry");
+        else
+            menuAnim.Play("menu_off_entry");
     }
 }
