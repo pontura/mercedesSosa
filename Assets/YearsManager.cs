@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class YearsManager : MonoBehaviour
 {
     public YearButton yearButton;
+    public YearButton finalButton;
     public Transform container;
     public float y_separationFactor;
     int firstYear;
@@ -50,7 +51,12 @@ public class YearsManager : MonoBehaviour
                 || (IsInOtherTypes(data.other_types, filterID))
                )
             {
-                YearButton newButton = Instantiate(yearButton, container);
+                YearButton newButton;
+                if (yearID >= Data.Instance.contentData.allData.data.Length-1)
+                    newButton = Instantiate(finalButton, container);
+                else
+                    newButton = Instantiate(yearButton, container);
+
                 newButton.transform.localScale = Vector3.one;
                 newButton.Init(this, data, yearID);
                 int _y = data.year - firstYear;

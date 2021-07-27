@@ -19,7 +19,12 @@ public class Popup : MonoBehaviour
     {
         this.data = data;
         Utils.RemoveAllChildsIn(container);
-        title.text = data.year.ToString();
+
+        if (data.year == 0)
+            title.text = "Mercedes eterna";
+        else
+            title.text = data.year.ToString();
+
         gameObject.SetActive(true);
         GetComponent<Animation>().Play("info_entry");
         Invoke("Delayed", 0.7f);

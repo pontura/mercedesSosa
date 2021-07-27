@@ -26,23 +26,27 @@ public class YearButton : MonoBehaviour
         this.manager = manager;
         this.data = data;
         SetState();
-        foreach (Text field in fields)
-            field.text = data.year.ToString();
-        switch(data.type)
+        if (fields != null && fields.Length >0)
         {
-            case "discos":
-                AddImages(images_discos);
-                break;
-            case "colaboraciones":
-                AddImages(images_colaboracion);
-                break;
-            case "premios":
-                AddImages(images_premios);
-                break;
-            default:
-                images[0].enabled = false;
-                images[1].enabled = false;
-                break;
+            foreach (Text field in fields)
+                field.text = data.year.ToString();
+        
+            switch(data.type)
+            {
+                case "discos":
+                    AddImages(images_discos);
+                    break;
+                case "colaboraciones":
+                    AddImages(images_colaboracion);
+                    break;
+                case "premios":
+                    AddImages(images_premios);
+                    break;
+                default:
+                    images[0].enabled = false;
+                    images[1].enabled = false;
+                    break;
+            }
         }
     }
     void AddImages(Sprite[] arr)

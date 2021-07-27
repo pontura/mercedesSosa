@@ -416,16 +416,16 @@ MonoBehaviour:
   images:
   - {fileID: 6331456398824288154}
   - {fileID: 111912427710877495}
-  fields:
-  - {fileID: 0}
-  - {fileID: 0}
+  fields: []
   on: {fileID: 6222881324556632731}
   off: {fileID: 1066419867855472280}
   isOn: 0
   data:
     year: 0
     type: 
+    other_types: []
     content: []
+  yearID: 0
 --- !u!111 &314492045962960764
 Animation:
   m_ObjectHideFlags: 0
