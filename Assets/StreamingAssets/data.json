@@ -4,7 +4,6 @@
 		{
 			"year":"1935",
 			"type": "bio",
-			"other_types": ["discos","colaboraciones"],
 			"content":
 			[
 				{
@@ -253,6 +252,7 @@
 		{
 			"year":"1977",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "En 1977, presentó Mercedes Sosa interpreta a Atahualpa Yupanqui y también el simple Si se calla el cantor junto a Horacio Guarany. Además, ese mismo año grabó otro simple con dos canciones: Cio da terra (con Chico Buarque) y San Vicente (con Fernando Brant).Para evadir la persecución política que vivía en el país decidió salir de gira por Europa y el norte de África. "},
@@ -300,6 +300,7 @@
 		{
 			"year":"1982",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "Volvió a la Argentina en febrero de 1982. Y realizó una serie de 13 recitales históricos a sala repleta en el Teatro Ópera de Buenos Aires, que se convirtieron en un acto cultural contra la dictadura. Entre los invitados a los shows estuvieron León Gieco y Charly García. Mercedes Sosa entendía que dentro del Movimiento del Nuevo Cancionero debía incluirse al rock argentino. De esos shows salió el disco Mercedes Sosa en Argentina."},
@@ -342,6 +343,7 @@
 		{
 			"year":"1985",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "Público dos discos: Yo vengo a ofrecer mi corazón y Corazón americano, que fue un registro del recital que realizó junto a Milton Nascimento y León Gieco."},
@@ -450,6 +452,7 @@
 		{
 			"year":"1997",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "En la edición de Cosquín de 1997, realizada el 26 de enero, ocurrió un hecho que fue clave en la historia del festival. Cuando Mercedes subió al escenario invitó a Charly García a cantar con ella “Rezo por vos”, “Inconsciente colectivo”, “De mí” y el Himno Nacional. El público se volvió loco.Ese concierto fue la semilla del proyecto titulado Alta fidelidad (1997), un disco que grabaron Sosa y García ese mismo año. Fueron versiones de temas de Charly, cantados por ambos, y con muchos músicos invitados, entre los que estaban: Pedro Aznar, Luis Alberto Spinetta, Juanse, Nito Mestre, María Gabriela Epumer y Andrés Calamaro."},
@@ -464,6 +467,7 @@
 		{
 			"year":"1998",
 			"type": "premios",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "En 1998 grabó uno de sus discos más importantes: Al despertar. El disco consiguió ganar el Premio Gardel al Disco del Año. Esa fue la primera vez en la historia que una mujer consiguió ese premio."},
@@ -497,6 +501,7 @@
 		{
 			"year":"2002",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "Al año siguiente, en 2002, empezó un proyecto colaborativo, con Victor Heredia y León Gieco, llamado Argentina quiere cantar. Se trató de una gira de conciertos que dieron los tres por diferentes lugares de la Argentina que sucedieron entre 2003 y 2005. En paralelo tendría otro proyecto más, también en colaboración, pero con la pianista Martha Argerich. Se trató de un recital a dúo en el teatro Colón."},
@@ -510,7 +515,7 @@
 		},
 		{
 			"year":"2005",
-			"type": "colaboraciones",
+			"type": "discos",
 			"content":
 			[
 				{"text": "En 2005 publicó Corazón libre. El álbum fue muy premiado: ganó un Grammy Latino y otro Premio Gardel. A partir de ese momento la salud de Mercedes empezó a deteriorarse. "},
@@ -533,6 +538,7 @@
 		{
 			"year":"2008",
 			"type": "colaboraciones",
+			"other_types": ["discos"],
 			"content":
 			[
 				{"text": "El 30 de junio de 2008 cantó en Tucumán para los presidentes de los países miembros y asociados del Mercosur. Durante ese año empezó a grabar Cantora, que sería su último disco -y uno de los más ambiciosos- donde canta 34 canciones a dúo con destacados cantantes argentinos y de distintas partes de América Latina. Además, cierra con una versión del himno nacional argentino. Volvió a demostrar su total desprejuicio sobre los géneros musicales y grabó con: René de Calle 13, Julieta Venegas, Fito Páez, Gustavo Cerati, Luis Alberto Spinetta, Liliana Herrero, León Gieco, Teresa Parodi, Jorge Drexler, Caetano Veloso, Soledad, Orozco-Barrientos, Gustavo Santaolalla y Vicentico, por mencionar algunos. Gracias a este álbum se llevó dos premios Grammy Latino: mejor álbum de folklore y mejor diseño de portada. Además, Cantora fue lanzado junto a una película documental que registra todos los viajes que hizo Mercedes para grabar las canciones con todos estos artistas. "},
