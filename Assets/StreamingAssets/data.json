@@ -82,7 +82,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1959, Mercedes Sosa lanzó su primer álbum, La voz de la zafra, editado por el sello RCA."},
+				{"text": "En 1959, Mercedes Sosa lanzó su primer álbum, <b>La voz de la zafra</b>, editado por el sello RCA."},
 				{
 					"imageURL": "1959 A.jpeg"
 				},
@@ -96,7 +96,7 @@
 			"type": "colaboraciones",
 			"content":
 			[
-				{"text": "En 1962 con Matus y Tejada Gómez fundaron el “Movimiento del Nuevo Cancionero”. Se presentaron en febrero de 1963 en el Círculo de Periodistas de Mendoza con un manifiesto del colectivo, que no solo tenía una intención estética, sino también política."},
+				{"text": "En 1962 con Matus y Tejada Gómez fundaron el <b>“Movimiento del Nuevo Cancionero”</b>. Se presentaron en febrero de 1963 en el Círculo de Periodistas de Mendoza con un manifiesto del colectivo, que no solo tenía una intención estética, sino también política."},
 				{
 					"imageURL": "1962.jpeg"
 				},
@@ -110,7 +110,7 @@
 			"type": "colaboraciones",
 			"content":
 			[
-				{"text": "En 1965 Mercedes decidió mudarse a Buenos Aires. Ese mismo año ocurrió en el festival de Cosquín algo que cambiaría la carrera de Mercedes. Los organizadores decidieron no incluirla en la grilla, sin embargo, Jorge Cafrune arriba del escenario la invitó a participar. Así la presentó: “Yo me voy a atrever, porque es un atrevimiento lo que voy a hacer ahora, y me voy a recibir un tirón de orejas por la Comisión [organizadora], pero qué le vamos a hacer… Siempre he sido así, galopeador contra el viento. Les voy a ofrecer el canto de una mujer purísima, que no ha tenido oportunidad de darlo y que como les digo, aunque se arme bronca, les voy a dejar con ustedes a una tucumana: Mercedes Sosa"},
+				{"text": "En 1965 Mercedes decidió mudarse a Buenos Aires. Ese mismo año ocurrió en el festival de Cosquín algo que cambiaría la carrera de Mercedes. Los organizadores decidieron no incluirla en la grilla, sin embargo, <b>Jorge Cafrune</b> arriba del escenario la invitó a participar. Así la presentó: “Yo me voy a atrever, porque es un atrevimiento lo que voy a hacer ahora, y me voy a recibir un tirón de orejas por la Comisión [organizadora], pero qué le vamos a hacer… Siempre he sido así, galopeador contra el viento. Les voy a ofrecer el canto de una mujer purísima, que no ha tenido oportunidad de darlo y que como les digo, aunque se arme bronca, les voy a dejar con ustedes a una tucumana: Mercedes Sosa"},
 				{
 					"imageURL": "1965 - mercedes y cafrune.jpeg"
 				}
@@ -121,7 +121,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1966 se publicaron Yo no canto por cantar, Hermano y Para cantarle a mi gente. Fueron éxitos de ventas y así consiguió sus primeras giras internacionales por Europa y Estados Unidos."},
+				{"text": "En 1966 se publicaron <b>Yo no canto por cantar</b>, <b>Hermano</b> y <b>Para cantarle a mi gente</b>. Fueron éxitos de ventas y así consiguió sus primeras giras internacionales por Europa y Estados Unidos."},
 				{
 					"imageURL": "2_Yo no canto por cantar (1966).jpg"
 				},
@@ -138,7 +138,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1968 salió el álbum Con sabor a Mercedes."},
+				{"text": "En 1968 salió el álbum <b>Con sabor a Mercedes</b>."},
 				{
 					"imageURL": "5_Con sabor a Mercedes (1968).jpg"
 				}
@@ -149,7 +149,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Antes de que terminen los años 60, Mercedes grabó tres discos seguidos, más conceptuales, con Ariel Ramírez y Félix Luna: Mujeres argentinas (1969)."},
+				{"text": "Antes de que terminen los años 60, Mercedes grabó tres discos seguidos, más conceptuales, con Ariel Ramírez y Félix Luna: <b>Mujeres argentinas (1969)</b>."},
 				{
 					"imageURL": "6_Mujeres Argentinas (1969).jpg"
 				},
@@ -166,7 +166,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Navidad con Mercedes Sosa y El grito de la tierra"},
+				{"text": "Publicó <b>Navidad con Mercedes Sosa</b> y <b>El grito de la tierra</b>"},
 				{
 					"imageURL": "7_El grito de la tierra (1970).jpg"
 				},
@@ -180,7 +180,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Cantata sudamericana (1971). En esos discos aparecieron dos canciones que fueron de sus más icónicas: la zamba “Alfonsina y el mar” y “Juana Azurduy”. En 1971 interpretó el papel de Juana Azurduy en la película Güemes, la tierra en armas. Dirigida por Leopoldo Torre Nilsson y protagonizada por Alfredo Alcón y Norma Aleando.En paralelo grabó un disco simple dedicado a dos artistas chilenos. El simple incluyó, en el lado A, “Gracias a la vida”, de Violeta Parra, y en el lado B, “Te recuerdo Amanda”, de Víctor Jara."},
+				{"text": "Publicó <b>Cantata sudamericana</b> (1971). En esos discos aparecieron dos canciones que fueron de sus más icónicas: la zamba “Alfonsina y el mar” y “Juana Azurduy”. En 1971 interpretó el papel de Juana Azurduy en la película Güemes, la tierra en armas. Dirigida por Leopoldo Torre Nilsson y protagonizada por Alfredo Alcón y Norma Aleando. En paralelo grabó un disco simple dedicado a dos artistas chilenos. El simple incluyó, en el lado A, <b>“Gracias a la vida”</b>, de Violeta Parra, y en el lado B, <b>“Te recuerdo Amanda”</b>, de Víctor Jara."},
 				{
 					"imageURL": "10_Cantata Sudamericana (1972).jpg"
 				},
@@ -197,7 +197,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Hasta la victoria. Nuevamente, el éxito del álbum la llevó de gira por Europa, sin embargo, en España se encontró con la dictadura de Franco y si bien no le prohibieron presentarse sí exigieron que no se hiciera publicidad del evento en las calles."},
+				{"text": "Publicó <b>Hasta la victoria</b>. Nuevamente, el éxito del álbum la llevó de gira por Europa, sin embargo, en España se encontró con la dictadura de Franco y si bien no le prohibieron presentarse sí exigieron que no se hiciera publicidad del evento en las calles."},
 				{
 					"imageURL": "11_Hasta la victoria (1972).jpg"
 				},
@@ -212,7 +212,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Al regresar de la gira europea, en 1973, publicó dos discos: A que florezca mi pueblo y Traigo un pueblo en mi voz. En Argentina otra vez había un gobierno peronista. Si bien Mercedes había sido militante peronista durante su juventud, cuando empezó la década del 70 se afilió al Partido Comunista. "},
+				{"text": "Al regresar de la gira europea, en 1973, publicó dos discos: <b>A que florezca mi pueblo</b> y <b>Traigo un pueblo en mi voz</b>. En Argentina otra vez había un gobierno peronista. Si bien Mercedes había sido militante peronista durante su juventud, cuando empezó la década del 70 se afilió al Partido Comunista. "},
 				{
 					"imageURL": "12_Traigo un pueblo en mi voz.jpg"
 				},
@@ -227,7 +227,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Disco de Oro"},
+				{"text": "Publicó <b>Disco de Oro</b>"},
 				{
 					"imageURL": "14_ Disco de Oro.jpg"
 				}
@@ -239,7 +239,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Una vez que se instaló la dictadura cívico militar en 1976, sus discos fueron censurados y se le prohibió tocar en público. Sin embargo, ella decidió editar igual un álbum que se tituló Mercedes Sosa, la mamancy."},
+				{"text": "Una vez que se instaló la dictadura cívico militar en 1976, sus discos fueron censurados y se le prohibió tocar en público. Sin embargo, ella decidió editar igual un álbum que se tituló <b>Mercedes Sosa, la mamancy</b>."},
 				{
 					"imageURL": "15_En direccion del viento (1976).jpg"
 				},
@@ -255,7 +255,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "En 1977, presentó Mercedes Sosa interpreta a Atahualpa Yupanqui y también el simple Si se calla el cantor junto a Horacio Guarany. Además, ese mismo año grabó otro simple con dos canciones: Cio da terra (con Chico Buarque) y San Vicente (con Fernando Brant).Para evadir la persecución política que vivía en el país decidió salir de gira por Europa y el norte de África. "},
+				{"text": "En 1977, presentó <b>Mercedes Sosa interpreta a Atahualpa Yupanqui</b> y también el simple <b>Si se calla el cantor</b> junto a Horacio Guarany. Además, ese mismo año grabó otro simple con dos canciones: <b>Cio da terra</b> (con Chico Buarque) y <b>San Vicente</b> (con Fernando Brant).Para evadir la persecución política que vivía en el país decidió salir de gira por Europa y el norte de África. "},
 				{
 					"imageURL": "16_Mercedes Sosa intepreta a Atahualpa Yupanqui (1977).jpg"
 				}
@@ -291,7 +291,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Gravado ao vivo no Brasil."},
+				{"text": "Publicó <b>Gravado ao vivo no Brasil</b>."},
 				{
 					"imageURL": "17_Gravado ao vivo no Brasil (1980).jpg"
 				}
@@ -303,7 +303,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "Volvió a la Argentina en febrero de 1982. Y realizó una serie de 13 recitales históricos a sala repleta en el Teatro Ópera de Buenos Aires, que se convirtieron en un acto cultural contra la dictadura. Entre los invitados a los shows estuvieron León Gieco y Charly García. Mercedes Sosa entendía que dentro del Movimiento del Nuevo Cancionero debía incluirse al rock argentino. De esos shows salió el disco Mercedes Sosa en Argentina."},
+				{"text": "Volvió a la Argentina en febrero de 1982. Y realizó una serie de 13 recitales históricos a sala repleta en el Teatro Ópera de Buenos Aires, que se convirtieron en un acto cultural contra la dictadura. Entre los invitados a los shows estuvieron León Gieco y Charly García. Mercedes Sosa entendía que dentro del Movimiento del Nuevo Cancionero debía incluirse al rock argentino. De esos shows salió el disco <b>Mercedes Sosa en Argentina</b>."},
 				{
 					"imageURL": "18_ Mercedes Sosa en Argentina (1982).jpg"
 				},
@@ -320,7 +320,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1983 participó en el Concierto por la Paz en Centroamérica en solidaridad con el gobierno sandinista de Nicaragua. Además, ese año grabó Como un pájaro libre. El título del disco dio nombre a una película documental dirigida por Ricardo Wullicher en la que se registran los recitales que la cantante realizó en el estadio de Ferrocarril Oeste."},
+				{"text": "En 1983 participó en el Concierto por la Paz en Centroamérica en solidaridad con el gobierno sandinista de Nicaragua. Además, ese año grabó <b>Como un pájaro libre</b>. El título del disco dio nombre a una película documental dirigida por Ricardo Wullicher en la que se registran los recitales que la cantante realizó en el estadio de Ferrocarril Oeste."},
 				{
 					"imageURL": "19_ Recital (1983).jpg"
 				},
@@ -334,7 +334,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "A partir de 1984 Mercedes Sosa volvería a una producción constante. En ese momento lanzó ¿Será posible el Sur?"},
+				{"text": "A partir de 1984 Mercedes Sosa volvería a una producción constante. En ese momento lanzó <b>¿Será posible el Sur?</b>"},
 				{
 					"imageURL": "20_ Sera posible el Sur (1984).jpg"
 				}
@@ -346,7 +346,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "Público dos discos: Yo vengo a ofrecer mi corazón y Corazón americano, que fue un registro del recital que realizó junto a Milton Nascimento y León Gieco."},
+				{"text": "Público dos discos: <b>Yo vengo a ofrecer mi corazón</b> y <b>Corazón americano</b>, que fue un registro del recital que realizó junto a Milton Nascimento y León Gieco."},
 				{
 					"imageURL": "21_Vengo a ofrecer mi corazon (1985).jpg"
 				},
@@ -360,7 +360,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Público Mercedes Sosa 86"},
+				{"text": "Público <b>Mercedes Sosa 86</b>"},
 				{
 					"imageURL": "22_Mercedes Sosa _86 (1986).jpg"
 				}
@@ -382,7 +382,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1991 publicó su álbum De mi."},
+				{"text": "En 1991 publicó su álbum <b>De mi</b>."},
 				{
 					"imageURL": "23_ De mí (1991).jpg"
 				}
@@ -393,7 +393,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1992, lanzó Voz y sentimiento, disco que finalmente pudo presentar en Chile, una vez que terminó la dictadura."},
+				{"text": "En 1992, lanzó <b>Voz y sentimiento</b>, disco que finalmente pudo presentar en Chile, una vez que terminó la dictadura."},
 				{
 					"imageURL": "1992 - Voz y sentimiento.jpg"
 				}
@@ -404,7 +404,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Sino."},
+				{"text": "Publicó <b>Sino</b>."},
 				{
 					"imageURL": "25_ 30 años (1993).jpg"
 				},
@@ -421,7 +421,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó Gestos de amor y En familia."},
+				{"text": "Publicó <b>Gestos de amor</b> y <b>En familia</b>."},
 				{
 					"imageURL": "27_ Gestos de amor (1994).jpg"
 				},
@@ -435,7 +435,10 @@
 			"type": "bio",
 			"content":
 			[
-				{"text": "En 1995 decidió que no cantaría más en la provincia de Tucumán ya que el represor Antonio Domingo Bussi (condenado a cadena perpetua por crímenes de lesa humanidad en 2008) había sido electo como gobernador de la provincia. Recién el 10 de diciembre de 1999 Bussi dejó su cargo​ y 16 días después la Negra volvió a cantar en Tucumán."}
+				{"text": "En 1995 decidió que no cantaría más en la provincia de Tucumán ya que el represor Antonio Domingo Bussi (condenado a cadena perpetua por crímenes de lesa humanidad en 2008) había sido electo como gobernador de la provincia. Recién el 10 de diciembre de 1999 Bussi dejó su cargo​ y 16 días después la Negra volvió a cantar en Tucumán."},
+				{
+					"imageURL": "1995_Mercedes byn.jpg"
+				}
 			]
 		},
 		{
@@ -443,7 +446,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Publicó el álbum Escondido en mi país (1996)."},
+				{"text": "Publicó el álbum <b>Escondido en mi país</b>."},
 				{
 					"imageURL": "1996 - disco_escondida en mi pais.jpeg"
 				}
@@ -455,7 +458,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "En la edición de Cosquín de 1997, realizada el 26 de enero, ocurrió un hecho que fue clave en la historia del festival. Cuando Mercedes subió al escenario invitó a Charly García a cantar con ella “Rezo por vos”, “Inconsciente colectivo”, “De mí” y el Himno Nacional. El público se volvió loco.Ese concierto fue la semilla del proyecto titulado Alta fidelidad (1997), un disco que grabaron Sosa y García ese mismo año. Fueron versiones de temas de Charly, cantados por ambos, y con muchos músicos invitados, entre los que estaban: Pedro Aznar, Luis Alberto Spinetta, Juanse, Nito Mestre, María Gabriela Epumer y Andrés Calamaro."},
+				{"text": "En la edición de Cosquín de 1997, realizada el 26 de enero, ocurrió un hecho que fue clave en la historia del festival. Cuando Mercedes subió al escenario invitó a Charly García a cantar con ella “Rezo por vos”, “Inconsciente colectivo”, “De mí” y el Himno Nacional. El público se volvió loco.Ese concierto fue la semilla del proyecto titulado <b>Alta fidelidad</b>, un disco que grabaron Sosa y García ese mismo año. Fueron versiones de temas de Charly, cantados por ambos, y con muchos músicos invitados, entre los que estaban: Pedro Aznar, Luis Alberto Spinetta, Juanse, Nito Mestre, María Gabriela Epumer y Andrés Calamaro."},
 				{
 					"imageURL": "1997 - alta fidelidad.jpeg"
 				},
@@ -470,7 +473,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "En 1998 grabó uno de sus discos más importantes: Al despertar. El disco consiguió ganar el Premio Gardel al Disco del Año. Esa fue la primera vez en la historia que una mujer consiguió ese premio."},
+				{"text": "En 1998 grabó uno de sus discos más importantes: <b>Al despertar</b>. El disco consiguió ganar el <b>Premio Gardel al Disco del Año</b>. Esa fue la primera vez en la historia que una mujer consiguió ese premio."},
 				{
 					"imageURL": "1998 - al despertar.jpeg"
 				},
@@ -492,10 +495,10 @@
 		},
 		{
 			"year":"2000",
-			"type": "disco",
+			"type": "discos",
 			"content":
 			[
-				{"text": "Empezados los años dos mil, Mercedes publicó un disco en vivo: Acústico en el Gran Rex. "}
+				{"text": "Empezados los años dos mil, Mercedes publicó un disco en vivo: <b>Acústico en el Gran Rex</b>. "}
 			]
 		},
 		{
@@ -504,7 +507,7 @@
 			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "Al año siguiente, en 2002, empezó un proyecto colaborativo, con Victor Heredia y León Gieco, llamado Argentina quiere cantar. Se trató de una gira de conciertos que dieron los tres por diferentes lugares de la Argentina que sucedieron entre 2003 y 2005. En paralelo tendría otro proyecto más, también en colaboración, pero con la pianista Martha Argerich. Se trató de un recital a dúo en el teatro Colón."},
+				{"text": "Al año siguiente, en 2002, empezó un proyecto colaborativo, con Victor Heredia y León Gieco, llamado <b>Argentina quiere cantar</b>. Se trató de una gira de conciertos que dieron los tres por diferentes lugares de la Argentina que sucedieron entre 2003 y 2005. En paralelo tendría otro proyecto más, también en colaboración, pero con la pianista Martha Argerich. Se trató de un recital a dúo en el teatro Colón."},
 				{
 					"imageURL": "2002 - argentina quiere cantar dico.jpeg"
 				},
@@ -515,10 +518,11 @@
 		},
 		{
 			"year":"2005",
-			"type": "discos",
+			"type": "premios",
+			"other_types": ["discos"],
 			"content":
 			[
-				{"text": "En 2005 publicó Corazón libre. El álbum fue muy premiado: ganó un Grammy Latino y otro Premio Gardel. A partir de ese momento la salud de Mercedes empezó a deteriorarse. "},
+				{"text": "En 2005 publicó <b>Corazón libre</b>. El álbum fue muy premiado: ganó un <b>Grammy Latino</b> y otro <b>Premio Gardel</b>. A partir de ese momento la salud de Mercedes empezó a deteriorarse. "},
 				{
 					"imageURL": "2005 - Mercedes-Sosa grammy.jpeg"
 				}
@@ -538,10 +542,10 @@
 		{
 			"year":"2008",
 			"type": "colaboraciones",
-			"other_types": ["discos"],
+			"other_types": ["discos", "premios"],
 			"content":
 			[
-				{"text": "El 30 de junio de 2008 cantó en Tucumán para los presidentes de los países miembros y asociados del Mercosur. Durante ese año empezó a grabar Cantora, que sería su último disco -y uno de los más ambiciosos- donde canta 34 canciones a dúo con destacados cantantes argentinos y de distintas partes de América Latina. Además, cierra con una versión del himno nacional argentino. Volvió a demostrar su total desprejuicio sobre los géneros musicales y grabó con: René de Calle 13, Julieta Venegas, Fito Páez, Gustavo Cerati, Luis Alberto Spinetta, Liliana Herrero, León Gieco, Teresa Parodi, Jorge Drexler, Caetano Veloso, Soledad, Orozco-Barrientos, Gustavo Santaolalla y Vicentico, por mencionar algunos. Gracias a este álbum se llevó dos premios Grammy Latino: mejor álbum de folklore y mejor diseño de portada. Además, Cantora fue lanzado junto a una película documental que registra todos los viajes que hizo Mercedes para grabar las canciones con todos estos artistas. "},
+				{"text": "El 30 de junio de 2008 cantó en Tucumán para los presidentes de los países miembros y asociados del Mercosur. Durante ese año empezó a grabar <b>Cantora</b>, que sería su último disco -y uno de los más ambiciosos- donde canta 34 canciones a dúo con destacados cantantes argentinos y de distintas partes de América Latina. Además, cierra con una versión del himno nacional argentino. Volvió a demostrar su total desprejuicio sobre los géneros musicales y grabó con: René de Calle 13, Julieta Venegas, Fito Páez, Gustavo Cerati, Luis Alberto Spinetta, Liliana Herrero, León Gieco, Teresa Parodi, Jorge Drexler, Caetano Veloso, Soledad, Orozco-Barrientos, Gustavo Santaolalla y Vicentico, por mencionar algunos. Gracias a este álbum se llevó dos premios Grammy Latino: mejor álbum de folklore y mejor diseño de portada. Además, Cantora fue lanzado junto a una película documental que registra todos los viajes que hizo Mercedes para grabar las canciones con todos estos artistas. "},
 				{
 					"imageURL": "2008 - cantora.jpg"
 				},
@@ -566,7 +570,7 @@
 			"type": "bio",
 			"content":
 			[
-				{"text": "Luego de su muerte se editaron cuatro discos que recopilaron canciones que estaban en otros álbumes o que habían sido quitadas de selecciones oficiales, como las que fueron censuradas durante la dictadura. Estos discos son: Censurada (2011), Siempre en ti (2013), Ángel (2014) y Lucerito (2015).Su voz permitió que todo un mundo conociera a los creadores de Latinoamérica, logrando el amor y reconocimiento de sus pares, y el agradecimiento de su público a lo largo de varias generaciones.Desde  invitamos a recorrer gran parte de su intensa vida y conocer aún más el valor de su legado y compromiso con la humanidad."},
+				{"text": "Luego de su muerte se editaron cuatro discos que recopilaron canciones que estaban en otros álbumes o que habían sido quitadas de selecciones oficiales, como las que fueron censuradas durante la dictadura. Estos discos son: <b>Censurada</b> (2011), <b>Siempre en ti</b> (2013), <b>Ángel</b> (2014) y <b>Lucerito</b> (2015).Su voz permitió que todo un mundo conociera a los creadores de Latinoamérica, logrando el amor y reconocimiento de sus pares, y el agradecimiento de su público a lo largo de varias generaciones.Desde  invitamos a recorrer gran parte de su intensa vida y conocer aún más el valor de su legado y compromiso con la humanidad."},
 				{
 					"imageURL": "Mercedes eterna - foto final.jpeg"
 				}
