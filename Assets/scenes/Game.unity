@@ -2088,7 +2088,6 @@ MonoBehaviour:
   scrollBar: {fileID: 1972966679}
   yearID: 0
   totalButtons_value: 0.54
-  factor: 0.0239
   minScrollSize: 0.001
   scrollSmooth: 0.04
 --- !u!114 &915691003
@@ -3270,7 +3269,7 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 283
-    m_Bottom: 0
+    m_Bottom: 97
   m_ChildAlignment: 0
   m_Spacing: -34.6
   m_ChildForceExpandWidth: 1
