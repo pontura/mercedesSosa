@@ -16,6 +16,7 @@ public class YearsManager : MonoBehaviour
     public Scrollbar scrollBar;
     public int yearID = 0;
     public float totalButtons_value = 0.54f;
+    int totalYears;
     
     bool IsInOtherTypes(string[] arr, int filterID)
     {
@@ -35,6 +36,7 @@ public class YearsManager : MonoBehaviour
     }
     public void Init(int filterID)
     {
+        totalYears = 0;
         yearID = 0;
         all.Clear();
         Utils.RemoveAllChildsIn(container);
@@ -67,9 +69,12 @@ public class YearsManager : MonoBehaviour
                 if(yearID == 0)
                     newButton.Clicked();
                 yearID++;
+                totalYears++;
             }
         }
         yearID = 0;
+        scrollValue = 1;
+        scrollBar.value = 1;
     }
     void MoveScroll()
     {
@@ -97,7 +102,6 @@ public class YearsManager : MonoBehaviour
             scrollBar.value = scrollValue;
         }
     }
-    public float factor = 0.0137f;
     public float minScrollSize = 0.001f;
     public float scrollSmooth = 0.04f;
 
@@ -105,7 +109,8 @@ public class YearsManager : MonoBehaviour
     void UpdateScroll()
     {
         state = states.REPOSITION;
-        scrollValue = 1 - (yearID * factor);
+        if (totalYears > 0)
+            scrollValue = 1 - ((float)yearID / (float)totalYears);
     }
     public void Move(bool isNext)
     {
