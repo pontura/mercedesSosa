@@ -360,7 +360,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "Público <b>Mercedes Sosa 86</b>."},
+				{"text": "Publicó <b>Mercedes Sosa 86</b>."},
 				{
 					"imageURL": "22_Mercedes Sosa _86 (1986).jpg"
 				}
@@ -382,7 +382,7 @@
 			"type": "discos",
 			"content":
 			[
-				{"text": "En 1991 publicó su álbum <b>De mi</b>."},
+				{"text": "En 1991 publicó su álbum <b>De mí</b>."},
 				{
 					"imageURL": "23_ De mí (1991).jpg"
 				}
@@ -536,7 +536,7 @@
 			"type": "bio",
 			"content":
 			[
-				{"text": "En 2007 participó y fué la figura principal del acto realizado el 10 de diciembre por el retorno de la democracia y la asunción de Cristina Fernández de Kirchner como presidenta. "},
+				{"text": "En 2007 participó y fue la figura principal del acto realizado el 10 de diciembre por el retorno de la democracia y la asunción de Cristina Fernández de Kirchner como presidenta. "},
 				{
 					"imageURL": "2007 - con cristina.jpeg"
 				}
