@@ -110,7 +110,7 @@ public class YearsManager : MonoBehaviour
     {
         state = states.REPOSITION;
         if (totalYears > 0)
-            scrollValue = 1 - ((float)yearID / (float)totalYears);
+            scrollValue = 1 - ((float)(yearID +1) / (float)totalYears);
     }
     public void Move(bool isNext)
     {
